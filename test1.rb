@@ -25,6 +25,7 @@ def do_hash(array)
     h[o] = temp_ocurrence
   end
   puts " hash ==> #{h}"
+  h
 end
 
 do_hash([1, 1, 1, 2, 2, 2, 2, 3, 3, 3])
